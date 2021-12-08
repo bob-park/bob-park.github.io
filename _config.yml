@@ -16,7 +16,7 @@ minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale: "ko-KR"
-title: "밥 팤 Tech Blog"
+title: "Bob Park Tech Blog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Bob Park"
@@ -26,7 +26,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "bob-park/bob-park.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: "밥 팤 Tech Blog"
+masthead_title: "Bob Park Tech Blog"
 breadcrumbs: true
 words_per_minute: 200
 comments:
@@ -103,7 +103,7 @@ analytics:
 author:
   name: "박현우"
   avatar: "assets/images/avata.gif"
-  bio: "<br>꾸준히 새로운 기술을 공부하고 기록하고 사용하고 싶은 개발자입니다. <br> <br> 열심히 해야지. 데헷 ;)"
+  bio: "<br>꾸준히 새로운 기술을 공부하고 사용하고 기록하고 싶은 개발자입니다. <br> <br> 열심히 해야지. 데헷 ;)"
   location: "Republic of Korea"
   # email            : "hwpark11@kakao.com"
   links:
