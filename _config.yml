@@ -103,7 +103,7 @@ analytics:
 author:
   name: '박현우'
   avatar: 'assets/images/avata.gif'
-  bio: '<br>꾸준히 새로운 기술을 공부하고 기록하고 사용하고 싶은 개발자입니다. <br> <br> 블로그 포스트 글에서 잘못된 부분이나 수정해야할 부분, 적극적으로 댓글 남겨주시면 정말 감사하 복받으실꺼에요. 데헷 ;)'
+  bio: '<br>꾸준히 새로운 기술을 공부하고 기록하고 사용하고 싶은 개발자입니다. <br> <br> 열심히 해야지. 데헷 ;)'
   location: 'Republic of Korea'
   # email            : "hwpark11@kakao.com"
   links:
@@ -275,7 +275,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      # comments: true
       share: true
       related: true
       popular: false

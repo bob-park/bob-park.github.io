@@ -4,7 +4,6 @@ categories:
   - Introduce
 tags:
   - introduce
-  - bob-park
 ---
 
 저도 만들었습니다. 드디어!! 기술블로그ㅋㅋㅋㅋ
