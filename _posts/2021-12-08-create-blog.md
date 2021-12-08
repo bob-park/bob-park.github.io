@@ -2,6 +2,10 @@
 title: "나도 만들었다. 기술블로그!!!"
 categories:
   - Introduce
+tags:
+  - introduce
+date: 2021-12-08
+last_modified_at: 2021-12-08
 ---
 
 저도 만들었습니다. 드디어!! 기술블로그ㅋㅋㅋㅋ
