@@ -1,7 +1,5 @@
 ---
 title: "나도 만들었다. 기술블로그!!!"
-layout: posts
-toc: true
 categories:
   - Introduce
 ---
