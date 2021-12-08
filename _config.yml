@@ -12,25 +12,25 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: 'neon' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: 'ko-KR'
-title: '밥 팤 Tech Blog'
-title_separator: '-'
+locale: "ko-KR"
+title: "밥 팤 Tech Blog"
+title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: 'Bob Park'
-description: '<br> Java + Spring Boot 와 Server 등 다양한 기술을 사용하고 공부하는 블로그'
+name: "Bob Park"
+description: "<br> Java + Spring Boot 와 Server 등 다양한 기술을 사용하고 공부하는 블로그"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: 'bob-park/bob-park.github.io'
+repository: "bob-park/bob-park.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: '밥 팤 Tech Blog'
+masthead_title: "밥 팤 Tech Blog"
 # breadcrumbs              : true
 words_per_minute: 200
 comments:
-  provider: 'disqus' # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname: bob-park
   discourse:
@@ -101,51 +101,51 @@ analytics:
 
 # Site Author
 author:
-  name: '박현우'
-  avatar: 'assets/images/avata.gif'
-  bio: '<br>꾸준히 새로운 기술을 공부하고 기록하고 사용하고 싶은 개발자입니다. <br> <br> 열심히 해야지. 데헷 ;)'
-  location: 'Republic of Korea'
+  name: "박현우"
+  avatar: "assets/images/avata.gif"
+  bio: "<br>꾸준히 새로운 기술을 공부하고 기록하고 사용하고 싶은 개발자입니다. <br> <br> 열심히 해야지. 데헷 ;)"
+  location: "Republic of Korea"
   # email            : "hwpark11@kakao.com"
   links:
-    - label: 'Email'
-      icon: 'fas fa-fw fa-envelope-square'
-      url: 'mailto:hwpark11@kakao.com'
-    - label: 'Website'
-      icon: 'fas fa-fw fa-link'
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hwpark11@kakao.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: 'Facebook'
-      icon: 'fab fa-fw fa-facebook-square'
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/bob-park'
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bob-park"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: 'Facebook'
-      icon: 'fab fa-fw fa-facebook-square'
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/bob-park'
-    - label: 'GitLab'
-      icon: 'fab fa-fw fa-gitlab'
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bob-park"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: 'Bitbucket'
-      icon: 'fab fa-fw fa-bitbucket'
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       # url:
 
 # Reading Files
@@ -153,8 +153,8 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - '*.sublime-project'
-  - '*.sublime-workspace'
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
@@ -182,8 +182,8 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: 'utf-8'
-markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
@@ -269,20 +269,20 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ''
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
       # comments: true
-      share: true
+      # share: true
       related: true
       popular: false
       sidebar_main: true
   # _pages
   - scope:
-      path: '_pages'
+      path: "_pages"
       type: pages
     values:
       layout: single
