@@ -13,49 +13,56 @@
                         style="font-family:'Cafe24Oneprettynight';">개</style>
         </li>
         <li>
-            <span class="nav__sub-title">Etc</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Introduce" %}
-                    <li><a href="/categories/introduce" class="">Introduce ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
             <span class="nav__sub-title">Spring</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Spring" %}
-                    <li><a href="/categories/spring" class="">String ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Basic JPA" %}
+                <li><a href="/categories/basic-jpa" class="">JPA ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Spring Boot" %}
-                    <li><a href="/categories/spring-boot" class="">String Boot ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Spring" %}
+                <li><a href="/categories/spring" class="">String ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Spring Cloud" %}
-                    <li><a href="/categories/spring-cloud" class="">String Cloud ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Spring Boot" %}
+                <li><a href="/categories/spring-boot" class="">String Boot ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Spring Data JPA" %}
-                    <li><a href="/categories/spring-data-jpa" class="">String Data JPA ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Spring Cloud" %}
+                <li><a href="/categories/spring-cloud" class="">String Cloud ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Spring Data JPA" %}
+                <li><a href="/categories/spring-data-jpa" class="">String Data JPA ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             <span class="nav__sub-title">ReactJS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "React" %}
-                    <li><a href="/categories/react" class="">React ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "React" %}
+                <li><a href="/categories/react" class="">React ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title">Etc</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Introduce" %}
+                <li><a href="/categories/introduce" class="">Introduce ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </li>
